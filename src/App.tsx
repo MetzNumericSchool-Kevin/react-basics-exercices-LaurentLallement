@@ -1,7 +1,8 @@
 import "./App.css";
-import "./Exercices/Exercice1/Component.tsx";
+// import "./Exercices/Exercice1/Component.tsx";
 import Exercice1 from "./Exercices/Exercice1/Component.tsx";
 import BienvenueAventurier from "./Exercices/Exercice1/BienvenueAventurier.tsx";
+import BoutonAppelArchibald from "./Exercices/Exercice2/BoutonAppelArchibald.tsx";
 
 function App() {
   return (
@@ -9,10 +10,7 @@ function App() {
         <BienvenueAventurier titre="Boutique d'Archibald le Sorcier"
                              texte="Bienvenue Aventurier, ici vous pouvez acheter divers objets et potions
                                     magiques pour vos aventures !"/>
-      <section id="exercice2">
-        <h2>Si je ne suis pas là, faites sonner la cloche !</h2>
-        <button className="btn btn-primary">🛎️ Appeler Archibald</button>
-      </section>
+        <BoutonAppelArchibald />
 
       <h1 className="my-5">Voici quelques objets de ma boutique :</h1>
 
