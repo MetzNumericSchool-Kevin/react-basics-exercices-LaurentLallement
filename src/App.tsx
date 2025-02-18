@@ -3,6 +3,7 @@ import "./App.css";
 import Exercice1 from "./Exercices/Exercice1/Component.tsx";
 import BienvenueAventurier from "./Exercices/Exercice1/BienvenueAventurier.tsx";
 import BoutonAppelArchibald from "./Exercices/Exercice2/BoutonAppelArchibald.tsx";
+import {Miroir} from "./Exercices/Exercice3/Miroir.tsx";
 
 function App() {
   return (
@@ -16,14 +17,7 @@ function App() {
 
       <section id="exercice3" className="my-5 flex self-center">
         <h2>Le miroir de beauté</h2>
-
-        <div className="card bg-dark border border-warning-subtle miroir">
-          <img src="aventurier.jpg" className="card-img-top img-fluid" />
-          <div className="card-body">
-            <h5 className="card-title">Miroir mon beau miroir</h5>
-            <p className="card-text">Quel est mon reflet ?</p>
-          </div>
-        </div>
+        <Miroir />
 
         <p>Vous avez l'air d'être un aventurier plein de charme dites-moi.</p>
       </section>
